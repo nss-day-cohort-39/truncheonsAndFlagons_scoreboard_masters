@@ -1,0 +1,97 @@
+{
+    "teams": [{
+            "id": 1,
+            "name": "Silver Snakes",
+            "createDate": "1584731719"
+        },
+        {
+            "id": 2,
+            "name": "Orange Iguanas",
+            "createDate": "1584731719"
+        },
+        {
+            "id": 3,
+            "name": "Blue Baboons",
+            "createDate": "1584731719"
+        }
+    ],
+    "players": [{
+            "id": 1,
+            "country": "China",
+            "name": ["Steve", "Browney"],
+            "teamID": 1
+        },
+        {
+            "id": 2,
+            "country": "China",
+            "name": ["Madi", "Pepperoni"],
+            "teamID": 1
+        },
+        {
+            "id": 3,
+            "country": "China",
+            "name": ["Mo", "Tacos"],
+            "teamID": 1
+        },
+        {
+            "id": 4,
+            "country": "USA",
+            "name": ["John", "Smith"],
+            "teamID": 2
+        },
+        {
+            "id": 5,
+            "country": "USA",
+            "name": ["Steve", "Johnson"],
+            "teamID": 2
+        },
+        {
+            "id": 6,
+            "country": "USA",
+            "name": ["Randy", "Jones"],
+            "teamID": 2
+        },
+        {
+            "id": 7,
+            "country": "Tajikistan",
+            "name": ["Kyle", "Broflofski"],
+            "teamID": 3
+        },
+        {
+            "id": 8,
+            "country": "Kyrgyzstan",
+            "name": ["Eldar", "Akmatov"],
+            "teamID": 3
+        },
+        {
+            "id": 9,
+            "country": "Djibouti",
+            "name": ["Alexander", "Bak"],
+            "teamID": 3
+        }
+    ],
+    "games": [{
+        "id": 1,
+        "teamID": [1, 2, 3],
+        "datePlayed": "1584731719"
+    }],
+    "roundScores": [{
+            "id": 1,
+            "gameID": 1,
+            "teamID": 1,
+            "roundScore": [12, 5, 9]
+        },
+        {
+            "id": 2,
+            "gameID": 1,
+            "teamID": 2,
+            "roundScore": [3, 10, 8]
+        },
+        {
+            "id": 3,
+            "gameID": 1,
+            "teamID": 3,
+            "roundScore": [4, 10, 2]
+        }
+    ]
+}
